@@ -1,0 +1,238 @@
+/*Aleksa Vukovic 18/0354*/
+.cela_strana_moj_profil{
+    background-color:rgb(28, 28, 29);
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+
+.wrapper_moj_profil{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 15vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+
+}
+
+.levo_moj_profil{
+    width: 17vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 4vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 0vw;
+}
+.levo_moj_profil a{
+    text-decoration: none;
+}
+.dugme_navigacija_naloga{
+    width: 100%;
+    height: 9vh;
+    background-color: #006039;
+    margin-bottom: 2.5vh;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 4px rgb(19, 19, 19);
+}
+.dugme_navigacija_naloga:hover{
+    background-color: #00814e;
+    box-shadow: 2px 4px 6px rgb(19, 19, 19);
+}
+.text_dugmeta{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgb(19, 19, 19);
+}
+
+.navigacija_naloga{
+    width: 90%;
+    height: 55vh;
+    background-color: rgba(14, 14, 14, 0.5);
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 2vw;
+}
+.navigacija_naloga h2{
+    width: 80%;
+    color: rgb(255, 255, 255);
+    font-size: 1.4vw;
+    margin-bottom: 0.5vh;
+    margin-top: -1vh;
+    letter-spacing: 1.3px;
+}
+.element_navigacije{
+    width: 80%;
+    height: auto;
+}
+.element_navigacije span:hover{
+    color: #c2983d !important;
+    font-weight: bold;
+}
+.tekst_elementa{
+    margin-top: -0.5vh;
+    color: rgb(194, 194, 194);
+    font-size: 0.85vw;
+    font-weight: bolder;
+    letter-spacing: 0.085vw;
+}
+
+.desno_moj_profil{
+    width: 63vw;
+     height: auto;
+    min-height: 100vh;
+    background-color: rgba(14, 14, 14, 0.5);
+    margin-left: 2vw;
+    border-radius: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 0vh;
+    padding-bottom: 10vh;
+}
+
+hr{
+    border: none;
+    height: 0.13vh;
+    background-color: rgb(109, 109, 109); 
+    margin-top: 3.5vh;
+}
+.naslov_sekcije{
+    color:#c2983d;
+    letter-spacing: 0.12vw;
+    font-weight: bold;
+    font-size: 2.1vw;
+    margin-top: 5vh !important;
+    text-shadow: 0px 4px 6px rgb(17, 17, 17);
+}
+
+
+.div_pretplacivanja{
+    width: 90%;
+    height: 50vh;
+    margin-left: 1vw;
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.datum_isticanja{
+    text-align: center;
+    font-size: 1.3vw;
+    color: rgb(240, 240, 240);
+    letter-spacing: 0.14vw;
+    font-weight: bolder;
+    text-shadow: 1px 4px 6px #1b1b1b;
+}
+
+.datum_span{
+    color: #c2983d;
+    font-weight: bold;
+    font-size: 1.5vw;
+}
+
+.biranje_pretplate{
+    width: 85%;
+    height: 40vh;
+    margin-top: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+.div_tipa_pretplate{
+    width: 27%;
+    height: 95%;
+    background: linear-gradient(#00814d , #006039);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-radius: 1.5vw;
+    cursor: pointer;
+    position: relative;
+    border-width:  1px;
+    border-color: black;
+    box-shadow: 2px 4px 4px rgb(15, 15, 15);
+}
+
+.naslov_pretplate{
+    width: 100%;
+    color: #c2983d;
+    font-size: 1.5vw;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 2vh;
+    letter-spacing: 0.15vw;
+}
+
+.cena_pretplate{
+    font-size: 1.3vw;
+    text-align: center;
+    margin-top: 1vh;
+    font-weight: bolder;
+    color: rgb(19, 19, 19);
+}
+
+.dekorativna_slika{
+    width: 100%;
+    height: 19vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.div_dugme_pretplati_se{
+    width: 100%;
+    height: 10vh;
+    margin-top: 8vh;
+    display: flex;
+    justify-content: center;
+}
+.div_dugme_pretplati_se a{
+      text-decoration: none;
+}
+
+.dugme_pretplati_se{
+    width: 14vw;
+    height: 100%;
+    background-color: #c2983d;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 1.5vw;
+    box-shadow: 2px 6px 8px rgb(17, 17, 17);
+    font-family: 'Marcellus', serif !important;
+    border: none;
+}
+.dugme_pretplati_se:hover{
+    background-color: #c2983de3;
+    box-shadow: 4px 10px 12px rgb(17, 17, 17);
+}
+.dugme_pretplati_se h3{
+    color:  rgb(240, 240, 240);
+    font-size: 1.2vw;
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+}
+
+

@@ -1,0 +1,36 @@
+/*Aleksa Vukovic 18/0354*/
+body{
+	margin: 0;
+	background:rgb(0, 0, 0);
+	width: 100%;
+	font-family: 'Marcellus', serif;
+	letter-spacing: 1px;
+	overflow: scroll;
+	overflow-x: hidden;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/*Skrivanje scrollbara uz zadrzavanje fukcije*/
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.poruka{
+    font-style: italic;
+    margin-top: 1vh;
+    color:red;
+    font-weight: normal;
+    margin-left: 0.5vw;
+}
+font{
+    font-style: italic;
+    margin-top: -2vh;
+    color:red;
+    font-weight: normal;
+    margin-left: 0.5vw;
+    margin-bottom: -4vh;
+}

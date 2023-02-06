@@ -1,0 +1,248 @@
+/*Aleksa Vukovic 18/0354*/
+.cela_strana { 
+	background-color:rgb(28, 28, 29);
+	width:100%;
+	height:2000px;
+	overflow:hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+
+.kontent{
+	background-color: royalblue;
+	height: 75vh;
+	margin-top: 15vh;
+}
+
+.popularniBrendovi{
+	width: auto;
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: white;
+	text-align:center;
+	text-shadow: 0px 3px 4px #000000b9;
+	font-size: 0.9vw;
+	align-items: center;
+	
+	background-color: wheat;
+}
+.popularniBrendovi ul{
+	width: max-content;
+	margin-left: -2.0833333333333335vw;
+}
+.popularniBrendovi ul a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 0px 3px 4px #000000b9;
+	font-size: 0.9vw;
+}
+.popularniBrendovi ul a:hover{
+	text-decoration: none;
+	color: rgb(233, 233, 233);
+	text-shadow: 0px 3px 4px #000000b9;
+	font-size: 0.9vw;
+}
+.popularniBrendovi li{
+	display: inline;
+	padding-left: 2.5vw;
+	justify-content: center;
+}
+.prvi_u_listi{
+	padding-left: 0vw;
+	margin-left: -2.0833333333333335vw;
+}
+
+.div_search_bar{
+	background-color:rgba(255, 255, 255, 0.15000000596046448);
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: 'Marcellus', serif;
+}
+.search__input {
+	font-family: 'Marcellus', serif;
+    width: 25vw;
+	height: 5.159958720330238vh;
+	margin-top:2.579979360165119vh;
+    padding: 12px 24px;
+    outline: none;
+    transition: transform 100ms ease-in-out;        
+	font-size: 0.8vw;
+    line-height: 0.8vw;
+    color:rgba(165, 165, 165, 0.9);
+    background-color: #1d1d1d;
+    background-image: url('images/search.png');
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid #1d1d1d;
+    transition: all 400ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+.search__input::placeholder {
+	font-family: 'Marcellus', serif;
+    font-weight: bolder;
+    color: rgba(165, 165, 165, 0.637);
+    letter-spacing: 1.3px;
+}
+.search__input:hover,
+.search__input:focus {
+    padding: 12px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #1d1d1d;
+    border-radius: 0;
+    background-position: 100% center;
+    background-color: transparent;
+    color: rgba(165, 165, 165, 0.9);
+    background-image: url('images/searchDarker.png');  
+}
+
+.wrapper_naziva_i_cena{
+	background-color:rgba(255, 255, 255, 0.15000000596046448);
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+}
+.naziv_cena { 
+	width:20%;
+	height:auto;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-around;
+	align-items: center;
+	padding: 2vh;
+}
+.cena { 
+	color:#C2983D;
+	width:100%;
+	height:100%;
+	text-align:center;
+	font-size:1.6vw;
+	letter-spacing:0.1vw;
+	margin-top: 1.1vh;
+	font-weight: bolder;
+	font-family: 'Times New Roman', Times, serif;
+}
+.naslov_sata { 
+	color:rgba(255, 255, 255, 1);
+	width:100%;
+	height:100%;
+	text-align:center;
+	font-size:1.1vw;
+	letter-spacing:0;
+}
+
+
+.wrapper_slika{
+	width:100vw;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	text-align: center;
+	background-color:rgba(255, 255, 255, 0.15000000596046448);
+}
+
+.div_sata { 
+	width:20%;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.div_sata a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slika1 { 
+	width:100%;
+	height:42.31166150670795vh;
+	background-image:url(images/rolexgmt.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center;
+	transition: transform .4s;
+}
+
+.slika2 { 
+	width:100%;
+	height:34.119711042311664vh;
+	background-image:url(images/vacheron.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center;
+	transition: transform .4s;
+}
+.slika3 { 
+	width:100%;
+	height:35.08771929824562vh;
+	background-image:url(images/patek.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center;
+	transition: transform .4s;
+}
+.slika4 { 
+	width:100%;
+	height:42.01166150670795vh;
+	background-image:url(images/datejust.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center;
+	transition: transform .4s;
+}
+.slika5{
+	width:100%;
+	height:33.05572755417957vh;
+	background-image:url(images/audemarspiguet.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+  	background-position: center;
+	transition: transform .4s;
+	
+}
+
+.slika1:hover{
+	transform: scale(1.08);
+}
+.slika2:hover{
+	transform: scale(1.08);
+}
+.slika3:hover{
+	transform: scale(1.08);
+}
+.slika4:hover{
+	transform: scale(1.08);
+}
+.slika5:hover{
+	transform: scale(1.08);
+}
+
+@keyframes ani4{
+	100%{
+		transform: scale(1.08);
+	}
+}
+@keyframes ani5{
+	100%{
+		transform: scale(1);
+	}
+}

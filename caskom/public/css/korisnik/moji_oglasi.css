@@ -1,0 +1,282 @@
+/*Aleksa Vukovic 18/0354*/
+.cela_strana_moj_profil{
+    background-color:rgb(28, 28, 29);
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+}
+
+.wrapper_moj_profil{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 15vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.levo_moj_profil{
+    width: 17vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding: 4vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 0vw;
+}
+.levo_moj_profil a{
+    text-decoration: none;
+}
+.dugme_navigacija_naloga{
+    width: 100%;
+    height: 9vh;
+    background-color: #006039;
+    margin-bottom: 2.5vh;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 4px rgb(19, 19, 19);
+}
+.dugme_navigacija_naloga:hover{
+    background-color: #00814e;
+    box-shadow: 2px 4px 6px rgb(19, 19, 19);
+}
+.text_dugmeta{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3vw;
+    letter-spacing: 0.1vw;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgb(19, 19, 19);
+}
+
+.navigacija_naloga{
+    width: 90%;
+    height: 55vh;
+    background-color: rgba(14, 14, 14, 0.5);
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 2vw;
+}
+.navigacija_naloga h2{
+    width: 80%;
+    color: rgb(255, 255, 255);
+    font-size: 1.4vw;
+    margin-bottom: 0.5vh;
+    margin-top: -1vh;
+    letter-spacing: 1.3px;
+}
+.element_navigacije{
+    width: 80%;
+    height: auto;
+}
+.element_navigacije span:hover{
+    color: #c2983d !important;
+    font-weight: bold;
+}
+.tekst_elementa{
+    margin-top: -0.5vh;
+    color: rgb(194, 194, 194);
+    font-size: 0.85vw;
+    font-weight: bolder;
+    letter-spacing: 0.085vw;
+}
+
+.desno_moj_profil{
+    width: 63vw;
+    height: auto;
+    min-height: 100vh;
+    background-color: rgba(14, 14, 14, 0.5);
+    margin-left: 2vw;
+    border-radius: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-top: 0vh;
+    padding-bottom: 10vh;
+}
+
+hr{
+    border: none;
+    height: 0.13vh;
+    background-color: rgb(109, 109, 109); 
+    margin-top: 3.5vh;
+}
+.naslov_sekcije{
+    color:#c2983d;
+    letter-spacing: 0.12vw;
+    font-weight: bold;
+    font-size: 2.1vw;
+    margin-top: 5vh !important;
+    text-shadow: 0px 4px 6px rgb(17, 17, 17);
+}
+
+
+.odeljak_oglasa{
+    max-width: 100%;
+    height: auto;
+    margin-top: 5vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    padding-bottom: 20vh;
+}
+.moji_istaknuti_oglasi{
+    width: 25%;
+    height: 35vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 7vh;
+}
+.div_oglasa{
+    width: 12vw;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 1vw;
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 1vw;
+    text-align: center;
+    position: relative;
+}
+.div_oglasa:hover{
+    background-color: rgba(0, 0, 0, 0.397);
+}
+.div_fotografije_oglasa{
+    width: auto;
+    max-width: 100%;
+    height: 70%;
+    background-image: url("../../images/ap1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-color: rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.div_naslova_i_cene_istaknuti{
+    width: 100%;
+    height: 25%;
+    margin-top: 2vh;
+}
+.nalov_oglasa_istaknuti{
+    color: rgb(219, 219, 219);
+    font-size: 0.75vw ;
+    font-weight: normal !important;
+}
+.cena_oglasa_istaknuti{
+    color: #c2983d !important;
+    font-size: 1.5vw;
+    margin-top: 0.5vh;
+    letter-spacing: 0.12vw;
+    font-weight: bold !important;
+   
+}
+
+.istaknuti_div{
+    background-color: #c2983df6 !important;
+}
+.istaknuti_div:hover{
+    background-color: #c2983de3 !important;
+}
+.istaknuti_naslov{
+    color: rgb(20, 20, 20) !important;
+    font-weight: bolder !important;
+}
+.istaknuta_cena{
+    color: #006039 !important;
+}
+
+.edit_istaknuti{
+    width: 1.5vw;
+    height: 3vh;
+    position: absolute;
+    top: 1vh;
+    right: 0.5vw;
+    background-image: url("../../images/edit_istaknuti.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+     background-size: 75%;
+ 
+    border-radius: 0.3vw;
+}
+.edit_istaknuti:hover{
+     background-color: rgba(255, 255, 255, 0.178);
+}
+
+.edit{
+    width: 1.5vw;
+    height: 3vh;
+    position: absolute;
+    top: 1vh;
+    right: 0.5vw;
+    background-image: url("../../images/edit.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+     background-size: 75%;
+
+    border-radius: 0.3vw;
+}
+.edit:hover{
+   background-color: rgba(109, 109, 109, 0.281);
+}
+
+
+.istakni_istaknuti{
+    width: 1.5vw;
+    height: 3vh;
+    position: absolute;
+    top: 1vh;
+    left: 0.5vw;
+    background-image: url("../../images/flash_istaknuti.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: 75%;
+    border-radius: 0.3vw;
+}
+.istakni_istaknuti:hover{
+     background-color: rgba(255, 255, 255, 0.178);
+}
+
+.istakni{
+    width: 1.5vw;
+    height: 3vh;
+    position: absolute;
+    top: 1vh;
+    left: 0.5vw;
+    background-image: url("../../images/flash.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: 75%;
+    border-radius: 0.3vw;
+}
+.istakni:hover{
+   background-color: rgba(109, 109, 109, 0.281);
+}
+
+
+.link_za_klik{
+    width: 100%;
+    height: 100%;
+    margin-top: 2vh;
+}
+
+

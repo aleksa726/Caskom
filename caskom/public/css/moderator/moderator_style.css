@@ -1,0 +1,7 @@
+/* Sava Gavrić 0359/18 */
+body{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}

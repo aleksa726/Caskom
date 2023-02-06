@@ -1,0 +1,551 @@
+/*Aleksa Vukovic 18/0354*/
+.cela_strana { 
+	background-color:rgb(28, 28, 29);
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	font-family: 'Marcellus', serif;
+}
+.cela_strana a:hover{
+	text-decoration: none;
+}
+.kontent{
+	background-color: rgba(0, 0, 0, 0.164);
+	height: 75vh;
+	margin-top: 15vh;
+}
+
+.kontent img{
+	height:100%;
+	width: auto;
+}
+.carousel-item{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+.img1{
+	margin-left: 10vw;
+}
+.img2{
+	margin-left: 22vw;
+}
+.img3{
+	margin-left: 36vw;
+}
+.carousel-caption{
+	height: 95%;
+	width: 40%;
+	margin-left: 25vw;
+	margin-top: 50vh;
+	z-index: 0;
+}
+.carousel-caption h1{
+	margin-top: -2vh;
+	margin-bottom: 2vh;
+}
+.naslov1{
+	margin-top: 1.5vh !important;
+	margin-bottom: 2vh;
+}
+.naslov2{
+	width: 30vw;
+	margin-left:-35vw;
+	font-style: italic;
+	font-weight: 100;
+	color: rgb(201, 201, 201);
+	letter-spacing: 2px;
+	margin-top: 3.5vh !important;
+}
+
+
+.slajd1tekst{
+	color: white;
+	font-size: 0.72vw;
+	font-style: italic;
+	text-align: left;
+	margin-left: 2vw;
+}
+
+.slajd2_tekst1{
+	margin-top: 30vh;
+	margin-left: -30vw;
+	width: 20vw;
+	font-size: 0.8vw !important;
+	font-weight: normal;
+	font-style: italic;
+	text-align: left;
+	color: rgb(170, 170, 170);
+}
+
+.slajd2_tekst2{
+font-size: 0.8vw !important;
+	font-weight: normal;
+	font-style: italic;
+	text-align: left;
+	color: rgb(170, 170, 170);
+	margin-top: -50vh;
+	width: 17vw;
+	margin-left: 32vw;
+	
+	text-align: center;
+}
+.naslov3{
+	width: 30vw;
+	margin-left:-32vw;
+	font-style: italic;
+	font-weight: 100;
+	color: rgb(201, 201, 201);
+	letter-spacing: 2px;
+	margin-top: 5vh !important;
+}
+
+.slajd3_tekst1{
+	margin-top: 7vh;
+	margin-left: -27vw;
+	width: 20vw;
+	font-size: 0.8vw !important;
+	font-weight: normal;
+	font-style: italic;
+	text-align: left;
+	color: rgb(170, 170, 170);
+	text-align: center;
+}
+.slajd3_tekst2{
+	font-size: 0.8vw !important;
+	font-weight: normal;
+	font-style: italic;
+	text-align: left;
+	color: rgb(170, 170, 170);
+	margin-top: 2vh;
+	width: 17vw;
+	margin-left: 25vw;
+	
+	text-align: center;
+}
+.podnaslov{
+	font-size: 1.2vw !important;
+	font-weight: normal;
+	font-style: italic;
+	text-align: left;
+	color: rgb(201, 201, 201);
+	margin-top: -42vh;
+	width: 17vw;
+	margin-left: 25vw;
+	
+	text-align: center;
+}
+
+.popularniBrendovi{
+	width: auto;
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: white;
+	text-align:center;
+	text-shadow: 0px 3px 4px #000000b9;
+	font-size: 0.9vw;
+	align-items: center;
+	font-family: 'Marcellus', serif;
+	margin-top: 1vh;
+}
+.popularniBrendovi ul{
+	width: max-content;
+	margin-left: -2.0833333333333335vw;
+}
+.popularniBrendovi ul a{
+	text-decoration: none;
+	color: white;
+	text-shadow: 0px 3px 4px #000000b9;
+	font-size: 0.9vw;
+	letter-spacing: 2px;
+}
+.popularniBrendovi ul a:hover{
+	text-decoration: none;
+	color: rgb(233, 233, 233);
+	text-shadow: 1px 6px 10px #000000;
+	font-size: 0.9vw;
+}
+.popularniBrendovi li{
+	display: inline;
+	padding-left: 2.5vw;
+	justify-content: center;
+}
+.prvi_u_listi{
+	padding-left: 0vw;
+	margin-left: -2.0833333333333335vw;
+}
+
+.div_search_bar{
+	background-color:rgba(255, 255, 255, 0.15000000596046448);
+	width: 100%;
+	height: 10vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: 'Marcellus', serif;
+}
+.search__input {
+	font-family: 'Marcellus', serif;
+    width: 25vw;
+	height: 5.159958720330238vh;
+	margin-top:2.579979360165119vh;
+    padding: 12px 24px;
+    outline: none;
+    transition: transform 100ms ease-in-out;        
+	font-size: 0.8vw;
+    line-height: 0.8vw;
+    color:rgba(165, 165, 165, 0.9);
+    background-color: #1d1d1d;
+    background-image: url('../../images/search.png');
+    background-repeat: no-repeat;
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 50px;
+    border: 1px solid #1d1d1d;
+    transition: all 400ms ease-in-out;
+    backface-visibility: hidden;
+    transform-style: preserve-3d;
+}
+.search__input::placeholder {
+	font-family: 'Marcellus', serif;
+    font-weight: bolder;
+    color: rgba(165, 165, 165, 0.637);
+    letter-spacing: 1.3px;
+}
+.search__input:hover,
+.search__input:focus {
+    padding: 12px 0;
+    outline: 0;
+    border: 1px solid transparent;
+    border-bottom: 2px solid #1d1d1d;
+    border-radius: 0;
+    background-position: 100% center;
+    background-color: transparent;
+    color: rgba(165, 165, 165, 0.9);
+    background-image: url('../../images/searchDarker.png');
+	padding-left: 0.7vw;  
+}
+
+.wrapper_naziva_i_cena{
+	background-color:rgba(255, 255, 255, 0.15000000596046448);
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+}
+.naziv_cena { 
+	width:20%;
+	height:auto;
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-around;
+	align-items: center;
+	padding: 2vh;
+}
+.cena { 
+	color:#C2983D;
+	width:100%;
+	height:100%;
+	text-align:center;
+	font-size:1.6vw;
+	letter-spacing:0.1vw;
+	margin-top: 1.1vh;
+	font-weight: bolder;
+	font-family: 'Times New Roman', Times, serif;
+}
+.naslov_sata { 
+	color:rgba(255, 255, 255, 1);
+	width:100%;
+	height:100%;
+	text-align:center;
+	font-size:1.1vw;
+	letter-spacing:0;
+
+	letter-spacing: 1px;
+}
+
+
+.wrapper_slika{
+	width:100vw;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: start;
+	align-items: center;
+	text-align: center;
+	background-color:rgba(255, 255, 255, 0.15000000596046448);
+}
+
+.div_sata { 
+	width:20%;
+	height:100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.div_sata a{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.slika1 { 
+	width:100%;
+	height:42.31166150670795vh;
+	background-image:url(../../images/rolexgmt.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center;
+	transition: transform .4s;
+}
+
+.slika2 { 
+	width:100%;
+	height:34.119711042311664vh;
+	background-image:url(../../images/vacheron.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center;
+	transition: transform .4s;
+}
+.slika3 { 
+	width:100%;
+	height:35.08771929824562vh;
+	background-image:url(../../images/patek.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center;
+	transition: transform .4s;
+}
+.slika4 { 
+	width:100%;
+	height:42.01166150670795vh;
+	background-image:url(../../images/datejust.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+	background-position: center;
+	transition: transform .4s;
+}
+.slika5{
+	width:100%;
+	height:33.05572755417957vh;
+	background-image:url(../../images/audemarspiguet.png);
+	background-repeat:no-repeat;
+	background-size:contain;
+  	background-position: center;
+	transition: transform .4s;
+	
+}
+
+.slika1:hover{
+	transform: scale(1.08);
+}
+.slika2:hover{
+	transform: scale(1.08);
+}
+.slika3:hover{
+	transform: scale(1.08);
+}
+.slika4:hover{
+	transform: scale(1.08);
+}
+.slika5:hover{
+	transform: scale(1.08);
+}
+
+@keyframes ani4{
+	100%{
+		transform: scale(1.08);
+	}
+}
+@keyframes ani5{
+	100%{
+		transform: scale(1);
+	}
+}
+
+.ikonica_ceta{
+    width: 2.8645833333333335vw;
+    height: 5.6759545923632615vh;
+    position: fixed;
+    bottom: 5vh;
+    right: 2.5vw;
+    background-color: rgba(0, 0, 0, 0.459);
+    border-radius: 50%;
+    background-image: url('../../images/chat.png');
+    background-repeat: no-repeat;
+    background-size: 65%;
+    background-position: center;
+    cursor: pointer;
+}
+
+.veliki_cet{
+    height: 46.43962848297214vh;
+    width:  18.229166666666668vw;
+    background-color: rgb(224, 224, 224);
+    position: fixed;
+    bottom: 0vh;
+    right: 2.5vw;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    transition : opacity 0.3s ease-in 0.15s,margin-top 0.6s, visibility 0.6s, margin-bottom 0.4s ease-out;
+}
+
+.linija_zatvaranje{
+    width: 100%;
+    height: 8%;
+    background-color: #00814e;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.linija_zatvaranje:hover{
+    background-color: #008b54;
+}
+
+.zatvori{
+    width: 10%;
+    background-image: url("../../images/close.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 45%;
+    cursor: pointer;
+}
+.zatvori:hover{
+    background-image: url("../../images/close_hover.png");
+}
+
+.linija_poruka{
+    box-sizing: border-box;
+    width: 100%;
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 0% !important;
+    overflow: scroll;
+    margin-bottom: -5%;
+}
+.div_poruke_poslata{
+    width: 100%;
+    height: auto;
+}
+.div_poruke_primljena{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: end;
+
+}
+.poruka_poslata{
+	
+    min-width: 30%;
+    max-width: 65%;
+
+    height: auto;
+    background-color: #00814edd;
+    word-wrap: break-word;
+    border-radius: 14px;
+    padding: 4%;
+    padding-left: 5%;
+    padding-right: 5.5%;
+    margin-bottom: 3%;
+}
+.poruka_primljena{
+    min-width: 30%;
+    max-width: 65%;
+
+    height: auto;
+    background-color: #C2983D;
+    word-wrap: break-word;
+    border-radius: 14px;
+    padding: 4%;
+    padding-left: 5%;
+    padding-right: 5.5%;
+    margin-bottom: 3%;
+}
+.tekst_poruke{
+    font-size: 0.8vw;
+}
+.linija_slanja{
+    width: 100%;
+    height: 11%;
+    background-color: rgba(187, 187, 187, 0.644);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.linija_slanja textarea{
+    width: 60%;
+    height: 50%;
+    outline: none;
+    border-radius: 22px;
+    font-size: 0.7vw;
+    font-family: 'Marcellus', serif;
+    margin-left: 5%;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-right: 5%;
+    resize: none;
+    background-color: rgb(161, 161, 161);
+    margin-right: 22%;
+}
+
+.send_icon{
+    height: 25px;
+    width: 25px;
+    background-image: url("../../images/send.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+.send_icon:hover{
+    background-image: url("../../images/send_hover.png");
+}
+
+.galerija{
+    width: 100vw;
+    height: 78vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    flex-wrap: wrap;
+    padding-top: 10vh;
+    padding-left: 11vw;
+    padding-right: 11vw;
+    padding-bottom: 10vh;
+}
+.slika_galerija{
+    width:  13.020833333333334vw;
+    height: 25.799793601651185vh;
+    background-color: black;
+    margin-right: 2.5vw;
+    margin-bottom: 2.5vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -1,0 +1,191 @@
+/* Sava Gavrić 0359/18 */
+.cela_strana_moj_profil{
+    background-color:rgb(28, 28, 29);
+	width: 100vw;
+	height: 170vh; /* 400vh */
+    /* background-color: chartreuse; */
+	/* overflow:hidden; */
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+    align-items: center;
+}
+
+.wrapper_moj_profil{
+    width: 100%;
+    height: 95%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    /* margin-top: 2%; */
+ /* padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 5vh;
+    padding-bottom: 5vh; */
+}
+
+.desno_moj_profil{
+    width: 65%;
+    height: 90%;
+    /* background-color: red; */
+    position: relative;
+    top: 3%;
+    background-color: rgba(14, 14, 14, 0.5);
+    border-radius: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    border: none;
+    height: 0.13vh;
+    background-color: rgb(109, 109, 109); 
+    margin-bottom: 5%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.naslov_sekcije{
+    color:#c2983d;
+    letter-spacing: 0.12vw;
+    font-weight: bold;
+    font-size: 2.1vw;
+    margin-top: 5vh;
+    text-shadow: 0px 4px 6px rgb(17, 17, 17);
+}
+
+.informacije_profila{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin-top: -7vh;
+    margin-left: 1vw;
+    text-shadow: 0px 2px 4px rgb(17, 17, 17);
+    margin-bottom: -7vh;
+}
+
+.podaci_profila{
+    color: rgb(240, 240, 240);;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    letter-spacing: 0.18vw;
+    margin-left: 5vw;
+}
+
+.profilna_slika img{
+    width: 12vw;
+    height: 12vw;
+    background-color: #006039;
+}
+
+.recenzije_profila{
+    width: 100%;
+    height: 75%;
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.recenzije_profila span{
+    color: rgb(240, 240, 240);
+    font-weight: bolder;
+    font-size: 1.3vw;
+    letter-spacing: 0.097vw;
+    text-shadow: 1px 3px 5px rgb(15, 15, 15);
+}
+
+.odeljak_recenzija{
+    width: 95%;
+    height: 75%;
+    /* background-color: darkred; */
+    margin-top: 7vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.div_recenzije{
+    padding: 1vw;
+    background-color: rgba(0, 0, 0, 0.534);
+    border-radius: 1.6vw;
+    width: 45%;
+    height: 36%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /* margin-bottom: 5vh; */
+}
+.div_recenzije:hover{
+    background-color: rgba(0, 0, 0, 0.356);
+}
+.username_korisnika_recenzije{
+    margin-top: 0.5vh !important;
+    color: rgb(240, 240, 240) !important;
+    font-size: 1vw !important;
+    margin-bottom: 1vh !important;
+    letter-spacing: 0.125vw !important;
+}
+.ocena_recenizje{
+    color:rgb(240, 240, 240) !important;
+    font-size: 1vw !important;
+    margin-bottom:3vh !important;
+}
+.tekst_recenzije{
+    color: rgb(219, 219, 219) !important;
+    font-size: 0.65vw !important;
+    text-shadow: 0px 0px 0px rgb(17, 17, 17) !important;
+    letter-spacing: 0.11vw !important;
+    font-style: italic !important;
+    font-weight: normal !important;
+    word-wrap: break-word;
+    overflow-y: scroll;
+}
+
+.page_buttons {
+    width: 60%;
+    height: 10%;
+    /* background-color: chartreuse; */
+    margin: auto;
+    /* margin-top: 5%; */
+    position: relative;
+    top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.page_buttons a{
+    width: 40%;
+    height: 50%;
+}
+
+.page_buttons a button{
+    width: 100%;
+    height: 100%;
+    background-color: #006039;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5vw;
+    box-shadow: 1px 4px 6px rgb(17, 17, 17);
+    cursor: pointer;
+}
+
+.page_buttons a button h3{
+    color:  rgb(240, 240, 240);
+    font-size: 0.8vw;
+    font-weight: bolder;
+    letter-spacing: 0.1vw;
+}
+

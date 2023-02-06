@@ -1,0 +1,72 @@
+/*Aleksa Vukovic 18/0354*/
+body{
+	margin: 0;
+	background:rgb(0, 0, 0);
+	width: 100%;
+	font-family: 'Marcellus', serif;
+	letter-spacing: 1px;
+	overflow: scroll;
+	overflow-x: hidden;
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
+/*Skrivanje scrollbara uz zadrzavanje fukcije*/
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.submit_filtriranje{
+    width: 75%;
+    height: 8vh;
+    background-color: #006039;
+    margin-bottom: 2.5vh;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 6px 10px rgb(19, 19, 19);
+    border:none;
+    cursor: pointer;
+    margin-left: 1vw;
+}
+
+.submit_filtriranje:hover{
+    background-color: #00814e;
+    box-shadow: 2px 8px 16px rgb(19, 19, 19);
+}
+
+.submit_filtriranje h3{
+    color: white;
+    font-weight: bold;
+    font-size: 1.1vw;
+    letter-spacing: 0.13vw;
+    text-align: center;
+    text-shadow: 0px 4px 8px rgb(19, 19, 19);
+    font-family: 'Marcellus', serif;
+    
+}
+
+.poruka{
+    font-style: italic;
+    margin-top: 1vh;
+    color:red;
+    font-weight: normal;
+    margin-left: 0.5vw;
+}
+
+.porukaOglas{
+    font-size: 0.85vw;
+    font-style: italic;
+    color:red;
+    font-weight: normal;
+    margin-left: 0.5vw;
+}

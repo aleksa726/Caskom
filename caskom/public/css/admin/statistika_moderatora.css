@@ -1,0 +1,190 @@
+body{
+	
+    background-color:rgb(28, 28, 29);
+    background-image: url(images/Blue\ Flat\ &\ Minimalist\ Spa\ Health\ Website\ \(17\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    
+    justify-content: left;
+    margin: 0;
+
+	width: 100%;
+	font-family: 'Marcellus', serif;
+    font-style: bold;
+	letter-spacing: 1px;
+    font-style: normal;
+}
+#ad12{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+ #levideo{
+    font-style: normal;
+        width: 35vw;
+        height: 100vh;
+        font-family: 'Marcellus', serif;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 1vw;
+        font-style: normal;
+}
+#lpoz{
+   margin-left: 10%;
+   margin-top: 20%;
+    height:70%;
+    width: 80%;
+   padding-top: 5%;
+    background:  rgba(21, 18, 18, 0.531);
+    border-radius: 1vw;
+
+}
+#desnideo{
+    
+    width: 65vw;
+    height: 100vh;
+    
+
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+#dpoz{
+    margin-left: 10%;
+    margin-top: 16vh;
+     height:67%;
+     width: 80%;
+    padding-top: 3%;
+     background:  rgba(21, 18, 18, 0.531);
+     border-radius: 1vw;
+ 
+ }
+.registruj_nalog{
+    
+    height: 7vh;
+    background-color: #006039;
+    margin-top: 40vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 3px 4px rgba(17, 17, 17, 0.637);
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.registruj_nalog:hover{
+    background-color: #00814e;
+    box-shadow: 2px 6px 8px rgb(17, 17, 17,0.705);
+}
+.tekst_registruj_nalog{
+    text-align: center;
+    color: #00814e;
+    font-size: 5vw;
+    
+}
+#but1{
+    text-align: center;
+    color:mintcream;
+  background-color: #00814e;
+  height: 7vh;
+  background-color: #006039;
+  margin-top: 37vh;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 1px 3px 4px rgba(17, 17, 17, 0.637);
+  margin-left: 10vw;
+  margin-right: 10vw;
+  
+}
+
+.labela{
+    color: rgb(214, 214, 214);
+    margin-top: 2vh;
+    margin-left: 6.5vw;
+    font-size: 1.75vw;
+    color: mintcream;
+}
+#ad13{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+#ad14{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+font-style:bold;
+color: rgb(214, 214, 214);
+margin-top: 17vh;
+margin-left: 3vw;
+
+color:  mintcream;
+}
+#ad17{
+margin-left: 2%;
+}
+#ad18,#ad19{
+    margin-left: 20%;
+}
+.upl{
+      position: relative;
+    margin-left: 5vw;
+  }
+/*padajuca*/
+.custom-select {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    min-width: 180px;
+    height: 40px;
+    margin: 0 auto;
+    margin-top: 10%;
+    border: 1px solid #4e4e4e;
+    background-color:rgba(21, 18, 18, 0.531);
+    z-index: 10;
+    border-radius: 1vw;
+  }
+  .custom-select select {
+    border: none;
+    outline: none;
+    background: transparent;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0;
+    margin-top: -6px;
+    display: block;
+    width: 100%;
+    padding: 12px 55px 15px 15px;
+    font-size: 16px;
+    font-family: 'Marcellus', serif;
+    font-style: normal;
+    color:#00814e;
+  }
+  .custom-select:after {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+    height: 100%;
+    line-height: 38px;
+    content: "∨";
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 24px;
+    border-left: 1px solid #ffffff;
+    z-index: -1;
+  }
+  .upl{
+      
+    margin-left: 5px;
+  }

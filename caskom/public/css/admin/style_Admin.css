@@ -1,0 +1,32 @@
+body{
+	margin: 0;
+	background: url("../../images/watch1_1.png");/*rgb(0, 0, 0);*/
+        background-size: cover;
+	width: 100%;
+	font-family: 'Marcellus', serif;
+	letter-spacing: 1px;
+height: 100%;
+display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+
+
+div #ad1{
+	position: absolute;
+width:100%;
+height:100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.poz1
+{
+
+	width:100%;
+height:100vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}

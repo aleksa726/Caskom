@@ -1,0 +1,169 @@
+/*Aleksa Vukovic 18/0354*/
+.ceo_div_registracije{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+.levi_div_registracije{
+    width: 35vw;
+    height: 100vh;
+    background-image: url(../../images/zenith_watches_black_background_2560x1920_1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background_overlay{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.65);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div_teksta{
+    width: 26vw;
+    height: auto;
+    margin-left: 5vw;
+    margin-top: -5vh;
+}
+
+.quote{
+    color: white;
+    font-size: 1.25vw;
+    font-style: italic;
+    letter-spacing: 0.15vw;
+    text-shadow: 0px 2px 2px #000000b9;
+}
+
+.desni_div_registracije{
+    width: 65vw;
+    height: 100vh;
+    background-color:rgb(15, 15, 15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: scroll;
+}
+
+.div_registracije{
+    width: 26vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.registracija_gornji_deo{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.pridruzi_se{
+    color: #c2983d;
+    font-size: 2.3vw;
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+    text-shadow: 0px 4px 4px #000000b9;;
+}
+.tekst_registracija{
+    color: rgb(221, 221, 221);
+    font-size: 0.8825vw;
+    margin-top: 10px;
+    text-shadow: 0px 2px 2px #000000b9;;
+}
+
+
+.dugmici_registracija{
+    margin-top: 1.5479876160990713vh;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.dugmici_registracija a{
+    text-decoration: none;
+}
+.dugme_fizicko_lice{
+    width: 100%;
+    height: 11vh;
+    background-color: white;
+    border-radius: 8px;
+    background-image: url(../../images/fizicko\ lice.png);
+    background-position: 7.5% center;
+    background-repeat: no-repeat;
+    background-size: 10% 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0px 3px 5px #000000b9;
+}
+.dugme_fizicko_lice:hover, .dugme_pravno_lice:hover{
+     background-color:rgb(240, 240, 240);
+     box-shadow: 6px 8px 12px #000000b9;
+}
+.dugme_pravno_lice{
+    background-image: url(../../images/pravno\ lice.png);
+    background-position: 8% center;
+    background-repeat: no-repeat;
+    background-size:  10% 40%;;
+    margin-top:1.5479876160990713vh;
+     width: 100%;
+    height: 11vh;
+    background-color: white;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0px 3px 5px #000000b9;
+}
+.vrsta_lica{
+    margin-top: 1.5479876160990713vh;
+    margin-left: 6vw;
+    color: rgb(51, 51, 51);
+    font-size: 0.93vw;
+    font-weight: bold;
+    letter-spacing: 0.13vw;
+    text-shadow: 0px 0px 0px #000000;
+}
+.opis_lica{
+    margin-left: 6vw;
+    color: rgb(134, 134, 134);
+    font-size: 0.75vw;
+    margin-bottom: 10px;
+    margin-right: 3vw;
+    font-style: italic;
+}
+
+.imas_nalog{
+    width: 90%;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imas_nalog span{
+    color: white;
+    font-size: 0.9vw;
+    text-shadow: 0px 1px 2px #000000b9;
+}
+
+.imas_nalog a{
+    font-weight: bold;
+    color: #006039;
+    text-decoration: none;
+    
+}
+.imas_nalog a:hover{
+    color: #00814e;
+}
+
+
+
+
+

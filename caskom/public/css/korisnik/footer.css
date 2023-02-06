@@ -1,0 +1,207 @@
+/*Aleksa Vukovic 18/0354*/
+.footer { 
+	background-color:rgba(255, 255, 255, 1);
+	width:100vw;
+	height:50vh;
+	position:absolute;
+	left:0px;
+	top:166.66666vh;
+	font-family: 'Marcellus', serif;
+}
+.footer a{
+	color:rgba(255, 255, 255, 1);
+	opacity:0.8;
+	text-decoration: none;
+}
+.footer a:hover{
+	color:#C2983D;
+	font-weight: bolder;
+	text-decoration: none;
+}
+.overlay_footera { 
+	background-color:rgb(15, 15, 15);
+	width:100vw;
+	height:50vh;
+	position:absolute;
+	left:0px;
+	top:0px;
+}
+.unutrasnji_div_footera { 
+	width:80vw;
+	height:48.5vh;
+	position:absolute;
+	left: 11.19791666vw;
+	top:5vh;
+	
+}
+.div_sa_tekstom_footera { 
+	width:76.44vw;
+	height:21.36vh;
+	position:absolute;
+	left:0px;
+	top:0px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.div_Lift_Media { 
+	width:auto;
+	height:18.5vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: left;
+}
+.Lift_Media { 
+	color:rgba(255, 255, 255, 1);
+	width: 6.09375vw;
+	height: 2.786vh;
+	text-align:left;
+	font-size:1vw;
+}
+.Pricing { 
+	color:rgba(255, 255, 255, 1);
+	opacity:0.75;
+	width:6.77vw;
+	height:14.4478vh;
+	text-align:left;
+	font-size:0.75vw;
+	line-height: 2.5vh;
+	margin-top: 1.5vh;
+}
+.div_Product { 
+	width:auto;
+	height:18.575vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: left;
+}
+.Product {
+	color:rgba(255, 255, 255, 1);
+	width:4.79166vw;
+	height:2.786vh;
+	text-align:left;
+	font-size:1vw;
+}
+.Business { 
+	color:rgba(255, 255, 255, 1);
+	opacity:0.75;
+	width:5.5729vw;
+	height:11.3519vh;
+	text-align:left;
+	font-size:0.75vw;
+	line-height: 2.5vh;
+	margin-top: 1.5vh;
+}
+.div_Learning { 
+	width:auto;
+	height:18.5758vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: left;
+}
+.Learning { 
+	color:rgba(255, 255, 255, 1);
+	width:5.3125vw;
+	height:2.7863777089783284vh;
+	text-align:left;
+	font-size:1vw;
+}
+.Learn_Hub { 
+	color:rgba(255, 255, 255, 1);
+	opacity:0.75;
+	width:6.145833333333333vw;
+	height:11.351909184726523vh;
+	text-align:left;
+	font-size:0.75vw;
+	line-height: 2.5vh;
+	margin-top: 1.5vh;
+}
+.div_Resources { 
+	width:auto;
+	height:18.575851393188856vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: left;
+}
+.Resources { 
+	color:rgba(255, 255, 255, 1);
+	width:6.40625vw;
+	height:2.7863777089783284vh;
+	text-align:left;
+	font-size:1vw;
+}
+.Tutorials { 
+	color:rgba(255, 255, 255, 1);
+	opacity:0.75;
+	width: 5.052083333333333vw;
+	height:11.351909184726523vh;
+	text-align:left;
+	font-size:0.75vw;
+	line-height: 2.5vh;
+	margin-top: 1.5vh;
+}
+.div_About { 
+	width:auto;
+	height:18.575851393188856vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: start;
+	align-items: left;
+}
+.About { 
+	color:rgba(255, 255, 255, 1);
+	width:3.75vw;
+	height:2.7863777089783284vh;
+	text-align:left;
+	font-size:1vw;
+}
+.Company { 
+	color:rgba(255, 255, 255, 1);
+	opacity:0.75;
+	width:4.739583333333333vw;
+	height:11.351909184726523vh;
+	text-align:left;
+	font-size:0.75vw;
+	line-height: 2.5vh;
+	margin-top: 1.5vh;
+}
+.Prava { 
+	color:rgba(255, 255, 255, 1);
+	width:20.46875vw;
+	height:2.6831785345717236vh;
+	position:absolute;
+	left:28.125vw;
+	bottom: 15.479876160990711vh;
+	text-align:center;
+	font-size:0.8vw;
+}
+
+.social_media { 
+	width:9.6875vw;
+	height:2.6831785345717236vh;
+	position:absolute;
+	left:33.333333333333336vw;
+	bottom: 22.703818369453046vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.social_media img{
+	width: 100%;
+	height: auto;
+}
+.instagram { 
+	width:1.71875vw;
+}
+.facebook { 
+	width: 1.5104166666666667vw;
+	margin-top: 0.10416666666666667vw;
+}
+.youtube{
+	width:  1.8229166666666667vw;
+}

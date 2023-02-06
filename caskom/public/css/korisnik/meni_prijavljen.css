@@ -1,0 +1,198 @@
+/*Aleksa Vukovic 18/0354*/
+.linija_menija { 
+	width:100vw;
+	height:8.04953560371517vh;
+	position:fixed;
+	animation: ani3 0.6s linear;
+	font-size: 1.05vw;
+	letter-spacing: 0.65px;
+	z-index: 5;
+	transition: top 0.4s;
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+	padding-top: 1vh;
+	padding-left: 2vw;
+	padding-right: 2vw;
+	
+}
+@keyframes ani3{
+	0%{
+		opacity: 0%;
+		margin-top: 40px;
+	}
+	100%{
+		opacity: 100%;
+		margin-top: 0px;
+	}
+}
+@keyframes ani33{
+	0%{
+		opacity: 0%;
+	
+	}
+	100%{
+		opacity: 100%;
+
+	}
+}
+.hoverzone{
+	position: fixed;
+	width: 100vw;
+	height: 20vh;
+	z-index: 5;
+}
+.hoverzone:hover .linija_menija{
+	top:2.8vh;
+}
+.moj_profil { 
+	width:8.05%;
+	height:100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	text-align: center;
+	margin-right: 5vw;
+    
+}
+.moj_profil h2{
+    font-size: 1.1vw;
+    font-weight: bold !important; 
+    letter-spacing: 0.65px;
+}
+.moj_profil img{
+    width: 21.5%;
+    height: auto;
+    margin-left: 0.8vw;
+}
+.moj_profil a{
+    text-shadow: 0px 2px 3px #000000b9;
+    color: #007445;
+    font-weight: bold;
+   letter-spacing: 0.65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+	image-rendering: optimizeQuality;
+}
+.moj_profil a:hover{
+    text-shadow: 1px 3px 4px #000000b9;
+    color: #00814e !important;
+    font-weight: bold;
+    letter-spacing: 0.1vw;
+    
+}
+.moj_profil a:hover img{
+    content: url(../../images/profile_picture_hover.png);
+}
+
+.link_registracija{
+	background-color:#006039;
+	width:45%;
+	height:5.796vh;
+	max-height: 4vw;
+	border-radius: 32px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+	text-shadow: 0px 4px 4px #000000b9;
+	box-shadow:2px 4px 3px rgba(0, 0, 0, 0.55);
+}
+
+.link_registracija:hover{
+	width:46%;
+	height:5.81vh;
+	background-color:#00814e;
+}
+
+.registruj_se { 
+	color:rgba(255, 255, 255, 1);
+	width:80%;
+	height:100%;
+	font-weight: 30;
+	text-align: center;
+}
+
+.linija { 
+	transform: rotate(90deg);
+	opacity:0.5;
+	width:10%;
+	height:0px;
+}
+.linija { 
+	border:1px solid rgba(242.00000077486038, 242.00000077486038, 242.00000077486038, 1);
+}
+.prijavi_se { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
+	color:rgba(255, 255, 255, 1);
+	width:30%;
+	height:auto;
+	text-align:center;
+	text-shadow: 0px 4px 4px #000000b9;
+	margin-right: -0.93vw;
+}
+.meni_info { 
+	box-shadow:0px 4px 4px rgba(0, 0, 0, 0);
+	width:auto;
+	height:90%;
+	display: flex;
+	flex-direction: row;
+	justify-content: left;
+	align-items: center;
+	margin-left: 30vw;
+	letter-spacing: 0.05vw;
+}
+.meni_info ul li{
+	margin-right: 2vw;
+	list-style: none;
+	display: inline-block;
+}
+.meni_info ul li a{
+	color:rgba(255, 255, 255, 1);
+	text-align:left;
+	text-shadow: 0px 4px 4px #000000b9;
+}
+
+.linija_menija a{
+	text-decoration: none;
+}
+.linija_menija a:hover{
+	color: #00814e;
+	color: #C2983D;
+	font-weight: bold;
+}
+
+.logo_naziv { 
+	width:auto;
+	height:80%;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.logo_wrapper{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.logo { 
+	width:1.2vw;
+	height: auto;
+	object-fit: contain;
+}
+
+.naziv {
+	margin-left: 10px;
+	color:#C2983D;
+	font-family: 'Cinzel', serif;
+	text-align:left;
+	font-size:1.3vw;
+	letter-spacing:3px;
+	text-shadow: 0px 4px 4px #000000b9;
+	align-items: center;
+	
+}

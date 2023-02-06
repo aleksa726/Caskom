@@ -1,0 +1,147 @@
+
+body{
+   
+    background-image: url('../../images/watch1_1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color:rgba(0, 0, 0, 0.5);
+}
+
+button{
+    outline: none !important;
+    cursor: pointer !important;
+}
+
+    #br1{
+       display: flex;
+      position: relative;
+      top: 25%;
+      left: 28%;
+        width:40%;
+        height: 60%;
+        background-color: rgba(12, 12, 12, 0.75);
+        border-radius: 3%;
+        text-align: center;
+    }
+    #b1{
+      
+    
+    }
+    #telefon{
+        color: rgb(255, 255, 255);
+        font-size: large;
+        font-weight: bold;
+    }
+    #b2{
+       
+      
+       
+    }
+    #poljeMejl{
+        height: 30%;
+        width: 70%;
+    }
+    #br2
+    { 
+        
+    }
+    #br3{
+        
+        align-items: center !important;
+    }
+    #br4{
+      
+    
+    }
+ .link1{
+    
+    color:rgba(255, 255, 255, 1);
+    text-shadow: 0px 2px 4px #000000b9;
+ }
+ .link1:hover{
+    color: white;
+	
+ }
+ 
+.cela_strana_moj_profil{
+     background-color:rgb(28, 28, 29);
+ }
+ 
+ .overlay{
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.466);
+   
+}
+
+.dugme_dalje{
+    width: 15vw;
+    height: 10vh;
+    background-color: #006039;
+    margin-bottom: 2.5vh;
+    border-radius: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 4px rgb(19, 19, 19);
+    font-family: 'Marcellus', serif !important;
+    border: none;
+    margin-top: 10vh;
+}
+.dugme_dalje:hover{
+    background-color: #00814e;
+    box-shadow: 2px 4px 6px rgb(19, 19, 19);
+}
+.text_dugmeta{
+    color: white;
+    font-weight: bold;
+    font-size: 0.8vw;
+    letter-spacing: 0.1vw;
+    text-align: center;
+    text-shadow: 0px 2px 2px rgb(19, 19, 19);
+}
+.malo_dugme{
+    width: 7vw;
+    height:5vh;
+    background-color: #c2983d;
+    margin-bottom: 2.5vh;
+    border-radius: 0.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 2px 4px rgb(19, 19, 19);
+    font-family: 'Marcellus', serif !important;
+    border: none;
+}
+.malo_dugme:hover{
+     background-color: #c2983de3;
+    box-shadow: 2px 4px 6px rgb(19, 19, 19);
+}
+
+.col{
+    align-items: center !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+textarea{
+    width: 15vw !important;
+    height: 20vh !important;
+    outline: none;
+    border-radius: 10px;
+    font-size: 0.85vw;
+    color: rgb(82, 82, 82);
+    border-color:#00814e;
+    border-width: 2.5px;
+    border-style: solid;
+    font-family: 'Marcellus', serif;
+    padding-left: 1vw;
+    padding-top: 1vh;
+    padding-right: 1vw;
+    resize: none;
+}
+textarea::placeholder{
+    font-size: 0.85vw;
+    font-style: italic;
+}

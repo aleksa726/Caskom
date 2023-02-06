@@ -1,0 +1,184 @@
+/*Aleksa Vukovic 18/0354*/
+.polja_registracija{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 2vh;
+}
+
+.labela_i_polje{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 1.5vh;
+    margin-top: 1vh;
+}
+.linija2{
+    width: 98%; 
+    margin-top: 2vh;
+    border-color: rgb(180, 180, 180);
+}
+.labela{
+    color: rgb(214, 214, 214);
+    margin-left: 0.5vw;
+    font-size: 0.75vw;
+    margin-bottom: 0.5vh;
+}
+
+.labela a{
+    text-decoration: none;
+    font-size: 0.75vw;
+    color: #006039;
+    font-weight: bold;
+}
+.labela a:hover{
+    color: #00814e;
+    font-weight: bold;
+}
+.polje_za_unos{
+    height: 6.5vh;
+    outline: none;
+    border-radius: 10px;
+    font-size: 0.85vw;
+    color: rgb(82, 82, 82);
+    /*#006039;*/
+    border-color:#00814e;
+    border-width: 2px;
+    border-style: solid;
+    margin-top: 1.2vh;
+    font-family: 'Marcellus', serif;
+    padding-left: 1vw;
+}
+.polje_za_unos::placeholder{
+    font-size: 0.67vw;
+    font-style: italic;
+    color: rgb(170, 170, 170);
+}
+.polje_za_unos:focus::placeholder{
+    color: transparent;
+}
+.checkboxovi{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: -2vh;
+    margin-bottom: 4vh;
+}
+.checkbox_i_labela{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 3vh;
+}
+input[type="checkbox"]{
+    margin-top: -1px;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    height:1vw;
+    width: 1vw;
+    background-color: #d5d5d5;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: url(../../images/checkbox.png);
+    background-size: 0.7vw 0.7vw;
+    background-repeat: no-repeat;
+    background-position: 60%;
+}
+input[type="checkbox"]:hover{
+    background-color: #a5a5a5;
+    background-image: url(../../images/checkbox_darker.png);
+    background-size: 0.7vw 0.7vw;
+    background-repeat: no-repeat;
+    background-position: 60%;
+}
+input[type="checkbox"]:checked{
+    background-color: #00814e;
+}
+input[type="checkbox"]:checked:hover{
+    background-color: #008f56;
+}
+
+.registruj_nalog{
+    width: 100%;
+    height: 8vh !important;
+    background-color: #006039;
+    margin-top: 2vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 3px 4px rgba(17, 17, 17, 0.637);
+    border: none;
+}
+.registruj_nalog:hover{
+    background-color: #00814e;
+    box-shadow: 2px 6px 8px rgb(17, 17, 17,0.705);
+}
+.tekst_registruj_nalog{
+    text-align: center;
+    color: white;
+    font-size: 1vw;
+    font-family: 'Marcellus', serif;
+    
+}
+#b1{
+    width: 100%;
+    height: 7vh;
+    background-color: #006039;
+    margin-top: 2vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 3px 4px rgba(17, 17, 17, 0.637);
+    color: black;
+}
+#b1:hover{background-color: #00814e;
+    box-shadow: 2px 6px 8px rgb(17, 17, 17,0.705);
+color: black;
+}
+
+.link1{
+
+    color:rgba(255, 255, 255, 1);
+    text-shadow: 0px 4px 4px #000000b9;
+ }
+ .link1:hover{
+    color: #C2983D;
+	font-weight: bold;
+ }
+  
+ #b2{
+    width: 100%;
+    height: 7vh;
+    background-color: #006039;
+    margin-top: 2vh;
+    margin-bottom: 1vh;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 1px 3px 4px rgba(17, 17, 17, 0.637);
+    color: black;
+}
+#b2:hover{background-color: #00814e;
+    box-shadow: 2px 6px 8px rgb(17, 17, 17,0.705);
+color: black;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+
